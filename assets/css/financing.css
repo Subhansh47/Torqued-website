@@ -1,0 +1,83 @@
+.heading{
+    font-family: 'Unbounded', cursive;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.title{
+    font-size: 3.0rem;
+    font-weight: bold;
+}.cntct{
+    top: 50%;
+    left: 50%;
+    height: 800px;
+    background-color: #efe8dc81;
+    font-size: 40px;
+    text-align: center;
+    justify-content: center;;  
+    margin: 100px; 
+    padding: 10px;
+    box-shadow:  0 5px 20px rgba(0, 0, 0, 0.5);
+}
+.cntct input,label{
+        margin-top:   40px;
+        width: 47rem;
+        text-align: left;
+    }
+    .cntct h1{
+       color: royalblue;
+        padding: auto;
+        margin-top: 50px;
+    }
+    #submit{
+        text-align: center;
+    }
+    .emi{
+        display: flex;
+    }
+    .cntnt{
+        height: 600px;
+        width: 50%;
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+        padding:70px;
+        color: rgba(181, 235, 227, 0.921);;
+        background-color: #2f131882;
+    }
+    .emiclc{
+        height: 600px;
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+        background-color: rgba(181, 235, 227, 0.921);
+        width: 50%;
+        color:  #2f131882;
+    }
+    button{ 
+        margin: 60px;
+    }
+    .Loan_calcualtor{
+        margin: 0 auto;
+        width: 600px;
+        height: 550px;
+        padding: 20px 0px 0px 100px;
+        margin-top: 30px;
+       border-radius: 10px;
+    }
+    p{
+        font-size: 25px;
+       font-family: sans-serif;
+    }
+    input{
+       height: 33px;
+       width: 70%;
+       font-size: 20px;
+       padding: 7px;
+    }
+    #calculate_op{
+       font-size: 20px;
+       width: 100px;
+       align-content: center;
+       margin-left:100px;
+       cursor: pointer;
+    }
+    #mainh1{
+        text-align: center;
+        padding-top: 30px;
+    }

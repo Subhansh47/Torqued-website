@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FINANCE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/finance.js"></script>
+    <link rel="stylesheet" href="assets/css/financing.css">
+    <link rel="stylesheet" href="assets/css/head_foot.css">
+</head>
+
+<body>
+
+    <div class="heading">
+
+        <h1 class="title"> TORQUED</h1>
+        <h5>call now 123-345-43</h5> <br>
+        <ul class="nav nav-pills nav-justified">
+
+            <div class="divl"></div>
+            <li class="nav-item"> <a class="nav-link" href="index.html">HOME </a> </li>
+            <li class="nav-item"> <a class="nav-link" href="NEW-INVENTORY.php">NEW-INVENTORY </a> </li>
+            <li class="nav-item"> <a class="nav-link" href="PRE-OWNED.php">PRE-OWNED </a> </li>
+            <li class="nav-item"> <a class="nav-link" href="FINANCING.html">FINANCING </a> </li>
+            <li class="nav-item"> <a class="nav-link" href="contact.html">CONTACT </a> </li>
+            <div class="divr"></div>
+        </ul>
+    </div>
+    <h1 id="mainh1">
+        entre your details to know about your finance options
+    </h1>
+    <div class="cntct">
+
+
+        <h1>LEAVE YOUR MESSAGE</h1>
+
+        <p class="set">
+            <label for="NAME">NAME:</label>
+            <input type="text" name="name" id="name">
+        </p>
+
+
+        <p class="set">
+            <label for="occupation">OCCUPATION:</label>
+            <input type="text" name="occupation" id="occupation">
+        </p>
+        <p class="set">
+            <label for="EXPERIENCE">EXPERIENCE:</label>
+            <input type="text" name="EXPERIENCE" id="EXPERIENCE">
+        </p>
+        <p class="set">
+            <label for="SALARY">SALARY:</label>
+            <input type="text" name="SALARY" id="salary">
+        </p>
+        <p class="set">
+            <label for="AGE">AGE</label>
+            <input type="text" name="AGE" id="age">
+        </p>
+        <button id="submitt" onclick="eligiblity();">
+            SUBMIT
+        </button>
+    </div>
+
+
+
+    <div class="emi">
+
+        <div class="cntnt">
+            <p>
+                Get instant car loan eligibility with upto 100% financing from leading banks at best Interest Rates, EMI
+                for your new car and used car purchase. TORQUED brings car finance at your fingertips with attractive
+                bank offers for your dream car. TORQUED makes applying for a car loan online quick and simple. All you
+                need to do is furnish some details on the website and submit your application. Once this is done, the
+                bank automatically takes over and you have your loan quotes ready.
+            </p>
+        </div>
+
+
+        <div class="emiclc">
+            <div class="Loan_calcualtor">
+                <h1>Loan Calculator </h1>
+                <p>Loan amount: $
+                    <input type="number" id="amount" placeholder="Enter amount..">
+                </p>
+                <p>Rate (Interest): %
+                    <input step=".1" id="rate" placeholder="Enter rate..">
+                </p>
+                <p>Months (Time):
+                    <input type="number" id="time" placeholder="Enter time..">
+                </p>
+                <button id="calculate_op" onclick="calculate();">calculate</button>
+                <p>Total EMI: $
+                    <input style="font-weight: 20px; color: black;" id="output">
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class=" footer">
+        <h1>COME VISIT US</h1>
+        <br>
+        <h4> AND DRIVE AWAY WITH YOUR NEW CAR!</h4>
+        <table>
+            <tr>
+                <td rowspan="2"><img src="assets/img/us1.gif" alt=""> </td>
+                <td>
+                    <p>Torqued@instagram.com</p>
+                </td>
+                <td rowspan="2"><img src="assets/img/us1.gif" alt=""> </td>
+                <td>
+                    <p>Torqued@facebook.com</p>
+                </td>
+                <td rowspan="2"><img src="assets/img/us1.gif" alt=""> </td>
+                <td>
+                    <p>Torqued@twitter.com</p>
+                </td>
+            </tr>
+
+        </table>
+        <iframe class="map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d35647.546625453615!2d75.77782314204993!3d22.63082484482474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fc0bf32599bf%3A0x1008b35026e513e3!2sInstitute%20of%20Engineering%20%26%20Science%2C%20IPS%20Academy!5e0!3m2!1sen!2sin!4v1678517391255!5m2!1sen!2sin"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+</body>
+
+<script>
+
+    function eligiblity() {
+
+
+        var name = document.getElementById("name").value;
+        var occupation = document.getElementById("occupation").value;
+        var experience = document.getElementById("EXPERIENCE").value;
+        var salary = document.getElementById("salary").value;
+        var age = document.getElementById("age").value;
+
+        if (age >= 21 && age <= 60 && salary >= 25000 && experience >= 3) {
+            alert(name + "you are eligible for the loan");
+        }
+        else alert("you are not eligible");
+    }
+</script>
+
+</html>

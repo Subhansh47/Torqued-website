@@ -1,0 +1,74 @@
+
+.map{
+
+    width:  837px;
+    height: 269px;
+    
+}  .footer{
+    background-color: rgb(10, 18, 71);
+    color: white;
+    padding: 200px;
+    align-items: center;
+    text-align: center;
+    font-size:36px
+}
+.footer img{
+    height: 50px;
+}
+.footer p{
+    font-size: 15px;
+}
+table{width: 70%;
+    margin: 0 auto;}
+
+    .heading {
+        height: 150px;
+        text-align: center;
+        font-family: 'Unbounded', cursive;
+        width: 100%;
+        align-items: center;
+        padding: 18px 0px;
+        background-image: url("assets/img/bglogo.png");
+        font-size: 1.1rem;
+    }
+    h1 {
+        font-size: 3.5rem;
+        font-weight: bold;
+        text-align: center;
+    }
+    h5 {
+        font-size: 1.8rem;
+    }
+    nav {
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        align-self: center;
+        align-content: center;
+        margin: 0 auto;
+    }
+    nav ul li a:hover{
+        color: rgb(255, 255, 255);
+        background-color: rgb(19, 0, 227);
+    }
+    a{
+        padding: 40px;
+    }
+    .imgage img{
+        height: 133px;
+        
+    }
+    .divx{
+        display: flexbox;
+        align-items: center;
+    }
+    .imgage{
+        height: 133px;
+        /* float: left; */
+        left: 0%;
+    }
+   .dv  {
+    text-align: center;
+    display: block;
+    /* background-color: red; */
+   }

@@ -1,0 +1,32 @@
+.modal-content{
+    top: 70px;
+    height: 780px;
+    width: 700px;
+    border: #111 solid 4px;
+    background-color: rgb(251, 246, 246);
+    text-align: center;
+    padding: 30px;
+}
+
+.modal-content img{
+    padding: 50px;
+}
+button{
+    display: contents;
+    max-width: 100%;
+    border-radius: 15px;
+}
+#carimg{
+    margin: 10px;
+    width: 560px;
+    height: 100%;
+    align-items: center;
+    left: 50%;
+}
+
+#mdltable{
+    border: 4px solid black;
+    margin-bottom: auto;
+    justify-content: center;
+}
+ 
